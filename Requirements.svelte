@@ -31,7 +31,7 @@
       icon: ["fas", "vial"]
     },
     Fabiflu: {
-      keywords: ["fabiflu"],
+      keywords: ["fabiflu","favipiravir"],
       checked: false,
       icon: ["fas", "pills"]
     },
@@ -40,15 +40,10 @@
       checked: false,
       icon: ["fas", "tablets"]
     },
-    Favipiravir: {
-      keywords: ["favipiravir"],
-      checked: false,
-      icon: ["fas", "capsules"]
-    },
     Tocilizumab: {
       keywords: ["tocilizumab"],
       checked: false,
-      icon: ["fas", "tablets"]
+      icon: ["fas", "capsules"]
     },
     Plasma: {
       keywords: ["plasma"],
