@@ -93,6 +93,7 @@
   </div>
 
   <div class="center">
+	  
 <Button on:click={generateQuery} block color='danger' >SEARCH</Button>
     <!-- <Button color='success' block> -->
   
