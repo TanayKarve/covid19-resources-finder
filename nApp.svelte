@@ -20,7 +20,8 @@
   function generateQuery() {
     var city = getCity();
     if (city == "") {
-      alert("Please enter city name!");
+	    alert("Please enter city name!");
+	    return;
     }
     var requirements = getRequirements();
     //var ret = $requirementStore; //.getItem("requirements");
