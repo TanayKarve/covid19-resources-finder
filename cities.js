@@ -28,6 +28,7 @@ export const cities = [
   "Eluru",
   "Farooqnagar",
   "Gadwal",
+  "Ghaziabad",
   "Gooty",
   "Gudivada",
   "Gudur",
