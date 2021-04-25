@@ -1,2 +1,4 @@
-# twitter-search-covid19
-Created with CodeSandbox
+# Covid Digital Helper
+Simple web search engine to help find valuable covid19 resources on social media
+
+Feel free to open a PR and contribute.
