@@ -19,6 +19,9 @@
     "https://img.republicworld.com/republic-prod/stories/images/15961176185f22d272e6a8f.png";
   function generateQuery() {
     var city = getCity();
+    if (city == "") {
+      alert("Please enter city name!");
+    }
     var requirements = getRequirements();
     //var ret = $requirementStore; //.getItem("requirements");
     query = "http://twitter.com/search?q=";
@@ -31,8 +34,9 @@
     //console.log(requirements);
 
     //requirements = requirements.replaceAll(" ", " OR ");
-
-    query += city + " (" + requirements + ")&f=live";
+    var filters =
+      ' -"not verified" -"unverified" -"needed" -"need" -"needs" -"required" -"require" -"requires" -"requirement" -"requirements"';
+    query += city + " (" + requirements + ")" + filters + "&f=live";
     query = encodeURI(query);
     //console.log(query);
     window.open(query, "_blank");
@@ -102,7 +106,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
-    <a href="https://github.com/">Project Homepage and Source Code</a>
+    <a href="https://github.com/TanayKarve/covid19-resources-finder">Project Homepage and Source Code</a>
   </div>
   <!-- Copyright -->
 
