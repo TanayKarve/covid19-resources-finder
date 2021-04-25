@@ -155,6 +155,7 @@ export const cities = [
   "Dispur",
   "Gauripur",
   "Goalpara",
+  "Gorakhpur",
   "Golaghat",
   "Guwahati",
   "Haflong",
