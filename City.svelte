@@ -36,14 +36,15 @@
 
 	<div class="leads">
 		This is a simple tool to help you search for valuable covid-19 resources online.
+  <br><a href="https://www.instagram.com/reel/COFOFu6J7tY/">Tutorial</a>
 <div class='warning'>
 		Do NOT make advanced payments unless you are 100% sure about their authenticity
-		Check for replies under the tweets
+		<br>Check for replies under the tweets
 </div>
 </div>
  
 
 <h2>City</h2>
-<Select   id="cities" placeholder="Enter city name here" items={cities} on:select={handleSelectCity}></Select>
+<Select id="cities" placeholder="Enter city name here" items={cities} on:select={handleSelectCity}></Select>
 <div>
 </Card>
